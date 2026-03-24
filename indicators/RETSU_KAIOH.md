@@ -1,82 +1,82 @@
 # 💎 Restu Kaioh - Scalping XAU/USD Indicator 💎 <img src="../images/Retsu_Kaioh.png" alt="Doppo Bot" width="150" height="150" align="right" style="border-radius: 50%;">
 
-Bienvenue dans l'indicateur **Restu Kaioh**, un outil de scalping performant conçu spécifiquement pour le trading de la paire **XAU/USD** (Or/Dollar) sur **MetaTrader 5** (MT5). 🏅
+Welcome to the **Restu Kaioh** indicator, a high-performance scalping tool designed specifically for trading the **XAU/USD** pair (Gold/USD) on **MetaTrader 5** (MT5). 🏅
 
-Cet indicateur combine la **Moyenne Mobile Simple (SMA)** et le **Stochastic Oscillator (Stoch)** pour détecter les meilleures opportunités de scalping. **Restu Kaioh** est inspiré par la stratégie et la force, comme le personnage de l'anime *Baki*, et est conçu pour les traders cherchant à capturer les petits mouvements du marché de l'or. ⚡
+This indicator combines the **Simple Moving Average (SMA)** and the **Stochastic Oscillator (Stoch)** to detect the best scalping opportunities. **Restu Kaioh** is inspired by strategy and strength—like the character from the *Baki* anime—and is built for traders looking to capture small moves in the gold market. ⚡
 
 ---
 
 ## 📊 Indicateurs Inclus
 
-### 1. **SMA - Moyenne Mobile Simple** 📈
-- **Période configurable :** 20 (modifiable selon vos préférences).
-- La SMA suit la tendance générale du marché et aide à identifier les points de retournement ou de continuation dans le mouvement de l'or.
+### 1. **SMA - Simple Moving Average** 📈
+- **Configurable period:** 20 (adjustable to your preferences).
+- The SMA follows the overall market trend and helps identify reversal or continuation points in gold price action.
 
 ### 2. **Stochastic Oscillator (Stoch)** 📉
-- **Période configurable :** 14, 3, 3 (modifiable selon vos préférences).
-- L'oscillateur stochastique est un excellent indicateur pour repérer les conditions de surachat et de survente, particulièrement utile dans les environnements volatils comme le marché de l'or.
+- **Configurable period:** 14, 3, 3 (adjustable to your preferences).
+- The stochastic oscillator is an excellent indicator for spotting overbought and oversold conditions, especially useful in volatile environments like the gold market.
 
 ---
 
 ## 🚀 Fonctionnalités
 
-- **Affichage clair sur le graphique :** Les lignes de la SMA et de l'oscillateur stochastique sont affichées pour une analyse facile des signaux de trading.
-- **Scalping optimal :** Les signaux d'entrée sont générés en fonction des croisements de la SMA et des niveaux de surachat/survente du Stoch.
-- **Personnalisable :** Ajustez la période de la SMA et les paramètres du Stoch pour correspondre à votre stratégie de trading spécifique.
+- **Clear on-chart display:** SMA and stochastic oscillator lines are displayed for easy analysis of trading signals.
+- **Optimal scalping:** Entry signals are generated based on SMA cross behavior and Stoch overbought/oversold levels.
+- **Customizable:** Adjust the SMA period and Stoch parameters to match your specific trading strategy.
 
 ---
 
 ## 📦 Contenu du Dossier
 
-Le dossier contient l'indicateur **Restu_Kaioh.mq5**, prêt à être utilisé dans **MetaTrader 5**.
+This folder contains the **Restu_Kaioh.mq5** indicator, ready to be used in **MetaTrader 5**.
 
 ---
 
 ## 🛠️ Installation et Utilisation
 
-1. **Téléchargez le fichier** `Restu_Kaioh.mq5` depuis ce dossier.
-2. Ouvrez **MetaTrader 5** et accédez à **MetaEditor**.
-3. Placez le fichier dans le répertoire `MQL5 > Indicators` de votre plateforme **MetaTrader 5**.
-4. Compilez le fichier pour générer l'exécutable de l'indicateur.
-5. Retournez dans **MetaTrader 5**, ouvrez un graphique de la paire **XAU/USD**.
-6. Allez dans le **Navigateur**, trouvez **Restu Kaioh** sous les indicateurs et faites-le glisser sur le graphique.
-7. **Personnalisez les paramètres** de la SMA et du Stoch selon votre préférence de scalping.
+1. **Download** `Restu_Kaioh.mq5` from this folder.
+2. Open **MetaTrader 5** and open **MetaEditor**.
+3. Place the file in `MQL5 > Indicators` in your **MetaTrader 5** data directory.
+4. Compile the file to generate the indicator executable.
+5. Return to **MetaTrader 5**, open an **XAU/USD** chart.
+6. In the **Navigator**, find **Restu Kaioh** under Indicators and drag it onto the chart.
+7. **Customize the SMA and Stoch settings** to match your scalping preferences.
 
 ---
 
 ## ⚙️ Paramètres de l'Indicateur
 
-- **SMA_Period :** La période de la Moyenne Mobile Simple. Par défaut, cette période est définie sur **20** pour analyser les tendances à court terme de l'or.
-- **Stoch_Period :** La période de l'oscillateur stochastique, par défaut **14**.
-- **Stoch_Slowing :** Paramètre de ralentissement pour l'oscillateur Stoch, par défaut **3**.
-- **Stoch_Smooth :** Le lissage de la courbe Stoch, par défaut **3**.
-- **Stoch_Overbought :** Le niveau de surachat pour l'oscillateur, généralement **80**.
-- **Stoch_Oversold :** Le niveau de survente pour l'oscillateur, généralement **20**.
+- **SMA_Period:** SMA period. Default is **20** to analyze short-term gold trends.
+- **Stoch_Period:** Stochastic period, default **14**.
+- **Stoch_Slowing:** Slowing parameter, default **3**.
+- **Stoch_Smooth:** Smoothing parameter, default **3**.
+- **Stoch_Overbought:** Overbought level, typically **80**.
+- **Stoch_Oversold:** Oversold level, typically **20**.
 
 ---
 
 ## ⚠️ Avertissements
 
-- **Risque de perte :** Comme pour tout trading, le scalping comporte des risques. Utilisez cet indicateur avec précaution et commencez par un **compte démo** avant de trader avec de l'argent réel.
-- **Pas de garantie de profits :** Les performances passées ne garantissent pas les résultats futurs. Ce n'est pas une garantie de succès, mais un outil pour vous aider à prendre des décisions éclairées.
-- **Surveillance nécessaire :** Bien que l'indicateur aide à générer des signaux de trading, il est important de surveiller les conditions du marché et d'ajuster vos stratégies en conséquence.
+- **Risk of loss:** As with any trading, scalping carries risk. Use this indicator with caution and start with a **demo account** before trading with real money.
+- **No profit guarantee:** Past performance does not guarantee future results. This is not a guarantee of success, but a tool to help you make informed decisions.
+- **Monitoring required:** While the indicator helps generate trading signals, it’s important to monitor market conditions and adjust your strategy accordingly.
 
 ---
 
 ## 💬 Contact
 
-Si vous avez des questions ou besoin d'assistance, n'hésitez pas à nous contacter :
+If you have questions or need assistance, feel free to contact us:
 
-- **Email :** contact@topimaso.com
-- **Site Web :** [TopiMaso Studio](https://www.topimaso.com)
+- **Email:** contact@topimaso.com
+- **Website:** [TopiMaso Studio](https://www.topimaso.com)
 
 ---
 
 ## 🎯 Licence
 
-L'indicateur est sous **licence MIT**, ce qui vous permet de l'utiliser, de le modifier et de le distribuer librement, à condition d'inclure cette licence dans vos projets.
+This indicator is released under the **MIT License**, which allows you to use, modify, and distribute it freely, provided you include the license in your projects.
 
 ---
 
-**Bonne chance sur vos trades, et que vos profits soient aussi solides que l'or ! 💎💰**
+**Good luck with your trades, and may your profits be as solid as gold! 💎💰**
 

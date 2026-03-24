@@ -1,79 +1,79 @@
 # 🍪 Biscuit Oliva - Scalping BTC/USD Indicator 🍪 <img src="../images/Biscuit_Oliva.png" alt="Doppo Bot" width="150" height="150" align="right" style="border-radius: 50%;">
 
-Bienvenue dans l'indicateur **Biscuit Oliva**, un outil de scalping puissant conçu pour le trading de la paire **BTC/USD** sur **MetaTrader 5** (MT5). 🥇
+Welcome to the **Biscuit Oliva** indicator, a powerful scalping tool designed for trading the **BTC/USD** pair on **MetaTrader 5** (MT5). 🥇
 
-Cet indicateur combine la **Moyenne Mobile Exponentielle (EMA)** et le **Relative Strength Index (RSI)** pour identifier les opportunités de scalping sur le marché du Bitcoin. Ces deux indicateurs sont des éléments clés pour les traders cherchant à exploiter de petites fluctuations de prix dans des périodes courtes.
+This indicator combines the **Exponential Moving Average (EMA)** and the **Relative Strength Index (RSI)** to identify scalping opportunities in the Bitcoin market. These two indicators are key tools for traders looking to take advantage of small price fluctuations over short time windows.
 
 ---
 
 ## 📊 Indicateurs Inclus
 
-### 1. **EMA - Moyenne Mobile Exponentielle** 📈
-- **Période configurable :** 14 (modifiable selon vos préférences).
-- L'EMA est utilisée pour suivre la tendance du marché de manière réactive. Elle est très utile pour repérer les retournements de tendance à court terme sur **BTC/USD**.
+### 1. **EMA - Exponential Moving Average** 📈
+- **Configurable period:** 14 (adjustable to your preferences).
+- The EMA is used to track market trend in a responsive way. It’s very useful for spotting short-term trend reversals on **BTC/USD**.
 
 ### 2. **RSI - Relative Strength Index** 📉
-- **Période configurable :** 14 (modifiable selon vos préférences).
-- L'indicateur RSI mesure les conditions de surachat et de survente. Si le RSI dépasse le seuil de **70**, cela indique une situation de surachat, et si le RSI tombe en dessous de **30**, cela indique une situation de survente. Ces niveaux sont cruciaux pour entrer et sortir du marché.
+- **Configurable period:** 14 (adjustable to your preferences).
+- The RSI measures overbought and oversold conditions. If RSI rises above **70**, it indicates overbought conditions; if RSI falls below **30**, it indicates oversold conditions. These levels are crucial for timing entries and exits.
 
 ---
 
 ## 🚀 Fonctionnalités
 
-- **Affichage sur le graphique :** Les indicateurs sont superposés sur votre graphique sous forme de lignes claires, permettant une lecture facile des signaux.
-- **Configuration facile :** Ajustez facilement les paramètres d'EMA et RSI pour s'adapter à vos préférences de trading.
-- **Scalping efficace :** Idéal pour des stratégies de trading intraday et scalping, visant à capter des mouvements rapides du marché.
+- **On-chart display:** The indicators are overlaid on your chart as clear lines, enabling easy reading of signals.
+- **Easy configuration:** Adjust EMA and RSI parameters easily to match your trading preferences.
+- **Efficient scalping:** Ideal for intraday and scalping strategies aiming to capture fast market moves.
 
 ---
 
 ## 📦 Contenu du Dossier
 
-Le dossier contient l'indicateur **Biscuit_Oliva.mq5**, prêt à être utilisé dans **MetaTrader 5**.
+This folder contains the **Biscuit_Oliva.mq5** indicator, ready to be used in **MetaTrader 5**.
 
 ---
 
 ## 🛠️ Installation et Utilisation
 
-1. **Téléchargez le fichier** `Biscuit_Oliva.mq5` depuis ce dossier.
-2. Ouvrez **MetaTrader 5** et accédez à **MetaEditor**.
-3. Placez le fichier dans le répertoire `MQL5 > Indicators` de votre plateforme **MetaTrader 5**.
-4. Compilez le fichier pour générer l'exécutable de l'indicateur.
-5. Retournez dans **MetaTrader 5**, ouvrez un graphique de la paire **BTC/USD**.
-6. Allez dans le **Navigateur**, trouvez **Biscuit Oliva** sous les indicateurs et faites-le glisser sur le graphique.
-7. **Personnalisez les paramètres** (périodes de l'EMA et RSI) selon votre stratégie de scalping.
+1. **Download** `Biscuit_Oliva.mq5` from this folder.
+2. Open **MetaTrader 5** and open **MetaEditor**.
+3. Place the file in `MQL5 > Indicators` in your **MetaTrader 5** data directory.
+4. Compile the file to generate the indicator executable.
+5. Return to **MetaTrader 5**, open a **BTC/USD** chart.
+6. In the **Navigator**, find **Biscuit Oliva** under Indicators and drag it onto the chart.
+7. **Customize the settings** (EMA and RSI periods) to match your scalping strategy.
 
 ---
 
 ## ⚙️ Paramètres de l'Indicateur
 
-- **EMA_Period :** La période de la Moyenne Mobile Exponentielle. Par défaut, cette période est définie sur **14**, mais vous pouvez l'ajuster selon votre analyse.
-- **RSI_Period :** La période du Relative Strength Index. Par défaut, cette période est définie sur **14**. Le RSI aide à identifier les conditions de surachat/survente pour une meilleure prise de décision.
-- **RSI_Overbought :** Le niveau de surachat pour le RSI, généralement fixé à **70**.
-- **RSI_Oversold :** Le niveau de survente pour le RSI, généralement fixé à **30**.
+- **EMA_Period:** EMA period. Default is **14**, but you can adjust it to your analysis.
+- **RSI_Period:** RSI period. Default is **14**. RSI helps identify overbought/oversold conditions for better decision-making.
+- **RSI_Overbought:** RSI overbought level, typically **70**.
+- **RSI_Oversold:** RSI oversold level, typically **30**.
 
 ---
 
 ## ⚠️ Avertissements
 
-- **Risque de perte :** Comme pour tout trading, le scalping comporte des risques. Utilisez cet indicateur avec précaution et commencez par un **compte démo** avant de trader avec de l'argent réel.
-- **Pas de garantie de profits :** Les performances passées ne garantissent pas les résultats futurs. Ce n'est pas une garantie de succès, mais un outil pour vous aider à prendre des décisions éclairées.
-- **Surveillance nécessaire :** Bien que l'indicateur aide à générer des signaux de trading, il est important de surveiller les conditions du marché et d'ajuster vos stratégies en conséquence.
+- **Risk of loss:** As with any trading, scalping carries risk. Use this indicator with caution and start with a **demo account** before trading with real money.
+- **No profit guarantee:** Past performance does not guarantee future results. This is not a guarantee of success, but a tool to help you make informed decisions.
+- **Monitoring required:** While the indicator helps generate trading signals, it’s important to monitor market conditions and adjust your strategy accordingly.
 
 ---
 
 ## 💬 Contact
 
-Si vous avez des questions ou besoin d'assistance, n'hésitez pas à nous contacter :
+If you have questions or need assistance, feel free to contact us:
 
-- **Email :** contact@topimaso.com
-- **Site Web :** [TopiMaso Studio](https://www.topimaso.com)
+- **Email:** contact@topimaso.com
+- **Website:** [TopiMaso Studio](https://www.topimaso.com)
 
 ---
 
 ## 🎯 Licence
 
-L'indicateur est sous **licence MIT**, ce qui vous permet de l'utiliser, de le modifier et de le distribuer librement, à condition d'inclure cette licence dans vos projets.
+This indicator is released under the **MIT License**, which allows you to use, modify, and distribute it freely, provided you include the license in your projects.
 
 ---
 
-**Bonne chance sur vos trades, et que vos profits soient aussi délicieux que des biscuits ! 🍪💰**
+**Good luck with your trades, and may your profits be as delicious as cookies! 🍪💰**

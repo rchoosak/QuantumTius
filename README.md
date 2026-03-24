@@ -1,83 +1,84 @@
 # QuantumTius <img src="./images/quantum.png" alt="Doppo Bot" width="150" height="150" align="right" style="border-radius: 50%;">
 
-**QuantumTius** est un dépôt centralisé pour les experts advisors (EAs), les signaux de trading, et autres outils créés avec le langage **MQL5** pour **MetaTrader 5 (MT5)**. Ce projet rassemble des stratégies automatisées, des scripts de trading et des solutions d'optimisation pour les traders utilisant MT5, avec un focus particulier sur le scalping des paires **BTC/USD** et **XAU/USD**.
+**QuantumTius** is a centralized repository for Expert Advisors (EAs), trading signals, and other tools built with **MQL5** for **MetaTrader 5 (MT5)**. This project brings together automated strategies, trading scripts, and optimization solutions for MT5 traders, with a particular focus on scalping **BTC/USD** and **XAU/USD**.
 
-## Objectif
+## Goal
 
-L'objectif de **QuantumTius** est de fournir une bibliothèque complète d'outils de trading automatisé pour les utilisateurs de **MetaTrader 5 (MT5)**. Ce projet est destiné à la création, l'optimisation et le partage de **stratégies de trading algorithmiques**, avec un accent particulier sur les paires de devises populaires telles que **BTC/USD** et **XAU/USD**.
+The goal of **QuantumTius** is to provide a complete library of automated trading tools for **MetaTrader 5 (MT5)** users. This project is intended for creating, optimizing, and sharing **algorithmic trading strategies**, with special attention to popular pairs such as **BTC/USD** and **XAU/USD**.
 
-## Fonctionnalités
+## Features
 
-- **Experts Advisors (EAs)** : Scripts MQL5 pour des stratégies de trading automatisées, y compris des robots de scalping.
-- **Signaux de Trading** : Configuration des signaux pour aider à prendre des décisions d'achat et de vente basées sur des analyses techniques avancées.
-- **Optimisation de Stratégies** : Algorithmes optimisés pour des exécutions rapides et une gestion efficace des risques.
-- **Backtesting** : Tester des stratégies sur des données historiques pour valider leur efficacité avant de les déployer en temps réel.
-- **Scalping sur BTC/USD et XAU/USD** : Cibler les opportunités de trading à haute fréquence sur ces deux marchés populaires.
-- **Scripts d'Analyse Technique** : Indicateurs et scripts pour aider à effectuer des analyses techniques avancées.
+- **Expert Advisors (EAs)**: MQL5 scripts for automated trading strategies, including scalping bots.
+- **Trading signals**: Signal setups to support buy/sell decisions based on advanced technical analysis.
+- **Strategy optimization**: Optimized algorithms for fast execution and effective risk management.
+- **Backtesting**: Test strategies on historical data to validate effectiveness before going live.
+- **Scalping on BTC/USD and XAU/USD**: Target high-frequency opportunities on these two popular markets.
+- **Technical analysis scripts**: Indicators and scripts to support advanced technical analysis.
 
-## Structure du Dépôt
+## Repository structure
 
-Voici un aperçu de la structure de ce dépôt :
+Here is an overview of this repository’s structure:
 ```
 QuantumTius/ 
-│ ├── experts_advisors/ # Contient les EAs pour MT5 
+│ ├── experts_advisors/ # Contains MT5 EAs
   │ ├── BTC_USD_Scalper.mq5 
   │ ├── XAU_USD_Scalper.mq5 
   │ └── ... 
-│ ├── signaux/ # Contient les signaux de trading 
+│ ├── signaux/ # Contains trading signals
   │ ├── BTC_USD_Signal.mq5 
   │ ├── XAU_USD_Signal.mq5 
   │ └── ... 
-│ ├── Indicators/ # Indicateurs techniques pour MT5 
+│ ├── Indicators/ # Technical indicators for MT5
   │ ├── EMA_Crossover.mq5 
   │ ├── RSI_Indicator.mq5 
   │ └── ... 
-│ ├── scripts/ # Scripts d'analyse et d'optimisation 
+│ ├── scripts/ # Analysis and optimization scripts
   │ ├── Backtest_Script.mq5 
   │ └── ... 
-│ └── README.md # Ce fichier
+│ └── README.md # This file
 ```
 
 ## Installation
 
-1. Clonez ce dépôt dans votre répertoire local :
+1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/ton-utilisateur/QuantumTius.git
    ```
 
-2. Copiez les fichiers `.mq5`dans le répertoire Experts de votre installation MetaTrader 5. Par défaut, ce répertoire se trouve à :
+2. Copy the `.mq5` files into the `Experts` directory of your MetaTrader 5 installation. By default, this directory is located at:
   ```sh
   C:\Program Files\MetaTrader 5\MQL5\Experts\
   ```
 
-3. Ouvrez **MetaTrader 5** et dans le terminal, cliquez sur **Fichier > Ouvrir le répertoire des données** . Ensuite, allez dans le répertoire `MQL5` et copiez les fichiers dans le bon sous-répertoire (Experts, Indicateurs, etc.).
+3. Open **MetaTrader 5**, then click **File > Open Data Folder**. Next, go to the `MQL5` directory and copy the files into the appropriate subfolder (Experts, Indicators, etc.).
 
-4. Compilez les fichiers `.mq5` via l'éditeur MetaEditor pour vous assurer qu'ils sont prêts à l'emploi.
+4. Compile the `.mq5` files in MetaEditor to ensure they are ready to use.
 
-5 .Lancez les EAs ou les signaux directement depuis MetaTrader 5 en ajoutant les outils sur les graphiques.
+5. Run the EAs or signals directly from MetaTrader 5 by adding the tools to your charts.
 
 ## Configuration
-Les EA et signaux peuvent nécessiter des ajustements dans les paramètres pour fonctionner correctement avec votre compte et vos préférences de trading.
+EAs and signals may require parameter adjustments to work correctly with your account and trading preferences.
 
-Exemple de configuration pour un EA de scalping BTC/USD :
+Example configuration for a BTC/USD scalping EA:
 ```mql
-input int    Slippage = 2;          // Slippage autorisé
-input double LotSize = 0.1;         // Taille de la position
-input int    TakeProfit = 50;       // Take profit en pips
-input int    StopLoss = 30;         // Stop loss en pips
-input string Symbol = "BTCUSD";     // Symbole de la paire
-input int    TimeFrame = 5;         // Timeframe en minutes (5 minutes)
+input int    Slippage = 2;          // Allowed slippage
+input double LotSize = 0.1;         // Position size
+input int    TakeProfit = 50;       // Take profit in pips
+input int    StopLoss = 30;         // Stop loss in pips
+input string Symbol = "BTCUSD";     // Pair symbol
+input int    TimeFrame = 5;         // Timeframe in minutes (5 minutes)
 ```
 
 ## Backtesting
-Vous pouvez tester les stratégies de trading de **QuantumTius** sur des données historiques dans **MetaTrader 5** en utilisant le **Strategy Tester** . Cela vous permettra de valider l'efficacité des EA et d'ajuster les paramètres pour améliorer les performances.
+You can test **QuantumTius** trading strategies on historical data in **MetaTrader 5** using the **Strategy Tester**. This lets you validate EA effectiveness and tune parameters to improve performance.
 
-## Contributeur
-Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration, des bugs à signaler ou des fonctionnalités à ajouter, veuillez ouvrir un issue ou soumettre une pull request .
+## Contributing
+Contributions are welcome. If you have improvement ideas, bugs to report, or features to add, please open an issue or submit a pull request.
 
-## Comment contribuer :
-* Forkez le projet.
-* Créez une nouvelle branche pour votre fonctionnalité ou correction de bug.
-* Faites vos modifications et soumettez une pull request.
-## Licence
-Ce projet est sous licence MIT . Vous êtes libre d'utiliser et de modifier ce code, mais n'oubliez pas de préciser l'auteur original.
+## How to contribute
+* Fork the project.
+* Create a new branch for your feature or bug fix.
+* Make your changes and submit a pull request.
+
+## License
+This project is licensed under the MIT License. You are free to use and modify this code, but please remember to credit the original author.
